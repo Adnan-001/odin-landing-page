@@ -91,7 +91,7 @@ body {
     color: white;
     font-size: 16px;
     font-weight: 700;
-    border-radius: 12px;
+    border-radius: 8px;
 
     margin-top: 5px;
 }
@@ -181,19 +181,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 300px;
+    gap: 250px;
 }
 
 .container4 p {
     color: white;
     font-size: 16px;
     margin: 0;
+
+    font-weight: 300;
 }
 
 .container4 #action {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 5px;
+
 }
 
 .container4 button {
