@@ -84,7 +84,7 @@ body {
 
 }
 
-.content button {
+.content button, .container4 button {
     background-color: #3882F6;
     width: 120px;
     height: 40px;
@@ -162,4 +162,41 @@ body {
     display: flex;
     justify-content: flex-end;
     margin-right: 16px;
+}
+
+.container4 {
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 .sub-container {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+.container4 p {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+
+.container4 #action {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.container4 button {
+    margin: 0;
+    border-color: white;
 }
