@@ -41,7 +41,7 @@ body {
     text-decoration: none;
 }
 
-.container1 {
+.container1, .footer {
     background-color: #1F2937;
 
 }
@@ -199,4 +199,14 @@ body {
 .container4 button {
     margin: 0;
     border-color: white;
+}
+
+.footer {
+    height: 100px;
+    color: white;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
